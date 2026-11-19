@@ -1,0 +1,113 @@
+{
+  "dataset": {
+    "rows": 40899,
+    "videos_used": 5707,
+    "first_day": "2017-11-14",
+    "last_day": "2018-06-14"
+  },
+  "time_split": {
+    "n": 1149,
+    "accuracy": 0.692,
+    "auc": 0.761,
+    "f1": 0.673,
+    "majority_baseline": 0.52,
+    "confident_accuracy": 0.754,
+    "confident_coverage": 0.693,
+    "train_n": 4558,
+    "test_from": "2018-04-01"
+  },
+  "forward_chaining": [
+    {
+      "n": 1238,
+      "accuracy": 0.755,
+      "auc": 0.841,
+      "f1": 0.678,
+      "majority_baseline": 0.574,
+      "confident_accuracy": 0.792,
+      "confident_coverage": 0.853,
+      "month": "2018-01"
+    },
+    {
+      "n": 1059,
+      "accuracy": 0.76,
+      "auc": 0.846,
+      "f1": 0.713,
+      "majority_baseline": 0.581,
+      "confident_accuracy": 0.818,
+      "confident_coverage": 0.813,
+      "month": "2018-02"
+    },
+    {
+      "n": 692,
+      "accuracy": 0.682,
+      "auc": 0.773,
+      "f1": 0.619,
+      "majority_baseline": 0.527,
+      "confident_accuracy": 0.747,
+      "confident_coverage": 0.692,
+      "month": "2018-03"
+    },
+    {
+      "n": 534,
+      "accuracy": 0.682,
+      "auc": 0.752,
+      "f1": 0.644,
+      "majority_baseline": 0.519,
+      "confident_accuracy": 0.735,
+      "confident_coverage": 0.706,
+      "month": "2018-04"
+    },
+    {
+      "n": 543,
+      "accuracy": 0.72,
+      "auc": 0.798,
+      "f1": 0.714,
+      "majority_baseline": 0.54,
+      "confident_accuracy": 0.792,
+      "confident_coverage": 0.665,
+      "month": "2018-05"
+    }
+  ],
+  "top_features": [
+    [
+      "chan_prev",
+      0.10695385138251634
+    ],
+    [
+      "title + tags text",
+      0.024297210691136772
+    ],
+    [
+      "turnover7",
+      0.011403636540188833
+    ],
+    [
+      "pub_wd",
+      0.007686378753671619
+    ],
+    [
+      "age_h",
+      0.0075164469691452185
+    ],
+    [
+      "views_pct2",
+      0.004761124462894117
+    ],
+    [
+      "likes_g",
+      0.004051052363265528
+    ],
+    [
+      "like_rate",
+      0.0021423542834947407
+    ],
+    [
+      "comment_count_g",
+      0.0014626271453886952
+    ],
+    [
+      "desc_len",
+      0.0013564197800596256
+    ]
+  ]
+}
