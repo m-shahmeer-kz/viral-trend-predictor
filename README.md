@@ -2,6 +2,7 @@
 
 **Predicts which trending YouTube videos will stay trending, spots topics that are rising, and turns the top topic into a ready-to-post vertical video, all in Python.**
 
+[![tests](https://github.com/m-shahmeer-kz/viral-trend-predictor/actions/workflows/tests.yml/badge.svg)](https://github.com/m-shahmeer-kz/viral-trend-predictor/actions/workflows/tests.yml)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-111?logo=python&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-ML-111?logo=scikitlearn&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-API-111?logo=fastapi&logoColor=white)
