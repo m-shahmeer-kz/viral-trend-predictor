@@ -1,0 +1,16 @@
+# data and trained models are re-created by the scripts
+data/*.csv
+data/*.json
+models/
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+# secrets
+.env
+# OS
+.DS_Store
+Thumbs.db
