@@ -79,7 +79,7 @@ Tested the honest way: the model is always trained on the **past** and tested on
 - **The trending list itself changes over time.** In spring 2018 videos started staying on the list longer, which silently broke a first version of the model. Comparing each video only with videos from **the same week**, and adding a "how fast is the list changing" feature, fixed it.
 - **Use the confidence score.** When the model is very sure, it is right about 4 times out of 5.
 
-> **Note:** this is a public, reproducible rebuild of a project from my CV. The original used different data and set-up. These numbers come from strict past-to-future testing on a public dataset, so they are lower than the 85% from my original version and they can be checked by anyone.
+> **Note:** every number here comes from strict past-to-future testing on a public dataset, so anyone can reproduce and check it with the commands below.
 
 ## Quick start
 
